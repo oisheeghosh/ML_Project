@@ -1,4 +1,4 @@
-# ML_Project
+# ML Models for Predicting Cervical Cancer Risk
 
 **Goal:** Develop a reliable predictive model that addresses class imbalance, reduces feature dimensionality and improves accuracy using a fused machine learning classifier.
 
@@ -106,6 +106,20 @@ Implemented and compared the following machine learning algorithms:
 ---
 
 ## Results
+
+## Model Performance Metrics
+
+| Classifier | Class | Precision | Recall | F1-Score | Accuracy |
+|------------|-------|----------|--------|----------|---------|
+| Random Forest | 0 | 1.0000 | 0.9886 | 0.9943 | 0.9940 |
+| Random Forest | 1 | 0.9877 | 1.0000 | 0.9938 | 0.9940 |
+| Naïve Bayes | 0 | 0.8600 | 0.9100 | 0.8800 | 0.8600 |
+| Naïve Bayes | 1 | 0.9000 | 0.8300 | 0.8600 | 0.8600 |
+| Logistic Regression | 0 | 1.0000 | 0.9886 | 0.9943 | 0.9940 |
+| Logistic Regression | 1 | 0.9877 | 1.0000 | 0.9938 | 0.9940 |
+| Fused ML Classifier | 0 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
+| Fused ML Classifier | 1 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
+
 - **Best performing model:** [ Fused ML Model]
 - **Metrics:**  
   - Accuracy: 100%  
