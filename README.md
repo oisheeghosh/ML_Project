@@ -92,10 +92,16 @@ Implemented and compared the following machine learning algorithms:
 3. **Naïve base** – Probabilistic classification model
 4. **Fused machine learning classifier** – Ensemble classification model
 
-**Key Steps:**
-- Model training and hyperparameter tuning
+---
+
+## Key Skills Demonstrated
+- Data Cleaning and Exploration
+- Feature Engineering
+- Model Training and Evaluation
 - Evaluation using appropriate metrics (accuracy, precision, recall, F1-score)
 - Cross-validation for reliable performance assessment
+- Visualization using Seaborn & Matplotlib
+- Scikit-learn model workflow
 
 ---
 
@@ -116,40 +122,6 @@ Feature Distribution Plots
 Model Accuracy,confusion matrix, ROC AUC  curve Comparison
 
 ---
-
-
-
-## 🚀 How to Run
-
-1. Download or clone this repository.
-2. Open the notebooks using **Jupyter Notebook** or **Google Colab**.
-3. Run the cells in order:
-   - `Exploratory_Data_Analysis.ipynb`
-   - `Model_Training.ipynb`
-
----
-
-## 📊 Key Skills Demonstrated
-- Data Cleaning and Exploration
-- Feature Engineering
-- Model Training and Evaluation
-- Visualization using Seaborn & Matplotlib
-- Scikit-learn model workflow
-
----
-📊 Project Summary
-
-This project explores a kaggle dataset of Cervical Cancer (Risk Factors):https://archive.ics.uci.edu/dataset/383/cervical+cancer+risk+factors using pandas and seaborn to identify key patterns, correlations, and outliers. After feature engineering, machine learning models are trained using scikit-learn (e.g., Logistic Regression, Random Forest and Naive Base) and voting classifier (Fused Machine learning classifier is applied on which gives better accuracy between these three classifier)
-Performance metrics (accuracy,confusion matrix, ROC AUC  curve etc) are used for evaluation.
---------------
-📈 Visualization
-
-Correlation Heatmaps
-
-Feature Distribution Plots
-
-Model Accuracy,confusion matrix, ROC AUC  curve Comparison
-
 
 ## 👩‍💻 Author
 **Oishee Ghosh**
